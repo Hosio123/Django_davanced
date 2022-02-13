@@ -15,4 +15,4 @@ poetry run mypy .
 echo "Run tests"
 python manage.py test
 
-echo "${COLOR_GREEN}You are good to go!${COLOR_NC}"
+echo "${COLOR_GREEN}test complete!${COLOR_NC}"
