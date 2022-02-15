@@ -8,7 +8,7 @@ from tabom.apis.v1.schemas.like_response import LikeResponse
 from tabom.models import Like
 from tabom.services.like_service import do_like, undo_like
 
-router = Router()
+router = Router(tags=["Likes"])
 
 
 @router.post("/", response={201: LikeResponse})
