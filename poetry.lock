@@ -228,6 +228,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "testcase"
+version = "0.1.0"
+description = "Run tabular unit tests"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -286,7 +294,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "3255004b37a2ea88501d26ac7740b4d9cacfa8c447f6d4f6a2a1d2ea90138947"
+content-hash = "ccbdf411323b9d025d509325f5ca68ba161a56cb5cb1143a2ffead2fd5d4fdc9"
 
 [metadata.files]
 asgiref = [
@@ -432,6 +440,10 @@ pymysql = [
 sqlparse = [
     {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},
     {file = "sqlparse-0.4.2.tar.gz", hash = "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae"},
+]
+testcase = [
+    {file = "testcase-0.1.0-py3-none-any.whl", hash = "sha256:da027ded9674259ab241b20beb45b01fa60d550fa78db89aef1c6b7e53996c5e"},
+    {file = "testcase-0.1.0.tar.gz", hash = "sha256:078a3e94ef7918934c3ac51a839daaaa32eca2406452c6dbc06225d2a656d100"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
