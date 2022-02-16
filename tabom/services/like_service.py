@@ -18,4 +18,3 @@ def undo_like(user_id: int, article_id: int) -> None:
         article = Article.objects.filter(id=article_id).get()
         article.like_count -= 1
         article.save()
-
