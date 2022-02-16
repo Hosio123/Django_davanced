@@ -16,6 +16,8 @@ PyMySQL = "1.0.2"
 types-PyMySQL = "1.0.6"
 prefetch = "^0.0"
 testcase = "^0.1.0"
+gunicorn = "20.1.0"
+uvicorn = "0.16.0"
 
 [tool.poetry.dev-dependencies]
 
